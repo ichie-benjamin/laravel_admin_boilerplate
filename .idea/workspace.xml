@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa95e79-fa15-42c1-8148-e21acaf6e0c0" name="Default Changelist" comment="" />
+    <list default="true" id="7fa95e79-fa15-42c1-8148-e21acaf6e0c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/settings/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/settings/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/settings/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/settings/mails.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel_admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel_admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/laravelmanthra.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/laravelmanthra.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/manthra/stubs/create.blade.stub" beforeDir="false" afterPath="$PROJECT_DIR$/resources/manthra/stubs/create.blade.stub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/manthra/stubs/edit.blade.stub" beforeDir="false" afterPath="$PROJECT_DIR$/resources/manthra/stubs/edit.blade.stub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/manthra/stubs/index.blade.stub" beforeDir="false" afterPath="$PROJECT_DIR$/resources/manthra/stubs/index.blade.stub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/partials/sideleft.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/partials/sideleft.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,6 +155,8 @@
       <path value="$PROJECT_DIR$/vendor/jeremykenedy/laravel-roles" />
       <path value="$PROJECT_DIR$/vendor/nicoaudy/laravelmanthra" />
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/akaunting/laravel-setting" />
+      <path value="$PROJECT_DIR$/vendor/watson/active" />
     </include_path>
   </component>
   <component name="ProjectId" id="1n0LnZicheKfDrWhfUqU83Il26G" />
@@ -205,7 +227,8 @@
       <workItem from="1614251053660" duration="930000" />
       <workItem from="1614286467570" duration="90000" />
       <workItem from="1615393908449" duration="788000" />
-      <workItem from="1617349937105" duration="18244000" />
+      <workItem from="1617349937105" duration="22276000" />
+      <workItem from="1617535197794" duration="7024000" />
     </task>
     <servers />
   </component>

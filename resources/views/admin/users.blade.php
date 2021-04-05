@@ -4,26 +4,17 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
 @endsection
 
+@section('head_title')
+    {{ $title }}
+@endsection
 @section('content')
 
 
 
 
-
-    <div class="br-mainpanel">
-        <div class="br-pageheader pd-y-15 ">
-            <nav class="breadcrumb pd-0 mg-0 tx-12">
-                <a class="breadcrumb-item" href="{{ route('admin.dashboard') }}">Dashboard</a>
-                <span class="breadcrumb-item active">Users</span>
-            </nav>
-        </div><!-- br-pageheader -->
-        @include('admin.notification')
-        <div class="pd-x-20 pd-sm-x-30 pd-t-20 pd-sm-t-30">
-            <h4 class="tx-gray-800 mg-b-5">{{ $title }}</h4>
-
             <div class="br-pagebody bg-white" style="padding: 10px 10px;">
 
-                <div class="mt-4 mb-4">
+                <div class=" mb-4">
                     <div class="">
                         <div class="bd-gray-300  table-responsive table-bordered table-striped">
                             @if (count($users) > 0)
@@ -73,8 +64,7 @@
 {{--                    <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-b-10">Basic Responsive DataTable</h6>--}}
                 </div>
             </div>
-        </div>
-    </div>
+
 @endsection
 
 @section('js')

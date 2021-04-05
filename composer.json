@@ -9,6 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "akaunting/laravel-setting": "^1.2",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
@@ -19,7 +20,8 @@
         "laravel/ui": "^3.2",
         "laravelcollective/html": "^6.2",
         "nicoaudy/laravelmanthra": "dev-master",
-        "tymon/jwt-auth": "^1.0"
+        "tymon/jwt-auth": "^1.0",
+        "watson/active": "^6.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

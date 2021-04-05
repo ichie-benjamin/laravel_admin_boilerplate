@@ -123,6 +123,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/jeremykenedy/laravel-roles" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/nicoaudy/laravelmanthra" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravelcollective/html" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/akaunting/laravel-setting" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/watson/active" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

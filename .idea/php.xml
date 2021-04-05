@@ -118,6 +118,8 @@
       <path value="$PROJECT_DIR$/vendor/jeremykenedy/laravel-roles" />
       <path value="$PROJECT_DIR$/vendor/nicoaudy/laravelmanthra" />
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/akaunting/laravel-setting" />
+      <path value="$PROJECT_DIR$/vendor/watson/active" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3">

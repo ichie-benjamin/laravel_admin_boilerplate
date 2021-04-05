@@ -8,7 +8,7 @@ return [
      */
     'clear_message' => null,
 
-    'custom_template' => false,
+    'custom_template' => true,
 
     /*
     |--------------------------------------------------------------------------

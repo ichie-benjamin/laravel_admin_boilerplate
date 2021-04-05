@@ -1,13 +1,10 @@
 @extends('admin.layouts.master')
 
+@section('head_title')
+    Welcome to {{ env('APP_NAME') }} Amin Dashboard
+@endsection
 @section('content')
-    <div class="br-mainpanel">
-        <div class="pd-30">
-            <h4 class="tx-gray-800 mg-b-5">Dashboard</h4>
-            <p class="mg-b-0">Welcome to {{ env('APP_NAME') }} Amin Dashboard.</p>
-        </div><!-- d-flex -->
-
-        <div class="br-pagebody mg-t-5 pd-x-30">
+        <div class="">
             <div class="row row-sm">
                 <div class="col-sm-6 col-xl-3">
                     <div class="bg-teal rounded overflow-hidden">
