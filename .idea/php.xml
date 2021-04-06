@@ -113,13 +113,13 @@
       <path value="$PROJECT_DIR$/vendor/namshi/jose" />
       <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
-      <path value="$PROJECT_DIR$/vendor/eklundkristoffer/seedster" />
       <path value="$PROJECT_DIR$/vendor/laravel/helpers" />
-      <path value="$PROJECT_DIR$/vendor/jeremykenedy/laravel-roles" />
       <path value="$PROJECT_DIR$/vendor/nicoaudy/laravelmanthra" />
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
       <path value="$PROJECT_DIR$/vendor/akaunting/laravel-setting" />
       <path value="$PROJECT_DIR$/vendor/watson/active" />
+      <path value="$PROJECT_DIR$/vendor/kkszymanowski/traitor" />
+      <path value="$PROJECT_DIR$/vendor/santigarcor/laratrust" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3">

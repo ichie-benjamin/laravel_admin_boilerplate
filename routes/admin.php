@@ -4,7 +4,7 @@ use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\SettingsController;
 use App\Http\Controllers\Admin\UserController;
 
-Route::group(['prefix' => 'admin','as' => 'admin.'], function () {
+Route::group(['middleware' => ['auth'], 'prefix' => 'admin','as' => 'admin.'], function () {
     Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
 
     Route::get('/users', [UserController::class, 'all'])->name('users');

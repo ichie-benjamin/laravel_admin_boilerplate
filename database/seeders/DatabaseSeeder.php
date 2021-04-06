@@ -14,14 +14,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        $this->call(LaratrustSeeder::class);
         // \App\Models\User::factory(10)->create();
 
-        Model::unguard();
-
-        $this->call(PermissionsTableSeeder::class);
-        $this->call(RolesTableSeeder::class);
-        $this->call(ConnectRelationshipsSeeder::class);
-
-        Model::reguard();
     }
 }

@@ -14,12 +14,12 @@
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "intervention/image": "^2.5",
-        "jeremykenedy/laravel-roles": "^6.0",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.2",
         "laravelcollective/html": "^6.2",
         "nicoaudy/laravelmanthra": "dev-master",
+        "santigarcor/laratrust": "^6.3",
         "tymon/jwt-auth": "^1.0",
         "watson/active": "^6.0"
     },

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb6453dee91debdf3253f8b3f295b0e7",
+    "content-hash": "3cc8295b24f7c29cf1e9b40339ec7ae4",
     "packages": [
         {
             "name": "akaunting/laravel-setting",
@@ -527,52 +527,6 @@
             "time": "2020-12-29T14:50:06+00:00"
         },
         {
-            "name": "eklundkristoffer/seedster",
-            "version": "4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/eklundkristoffer/seedster.git",
-                "reference": "9c01f9d3527a1988eb9454270ec9e77787c2da7f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/eklundkristoffer/seedster/zipball/9c01f9d3527a1988eb9454270ec9e77787c2da7f",
-                "reference": "9c01f9d3527a1988eb9454270ec9e77787c2da7f",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*|6.*|^7.0|^8.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Seedster\\SeedsterServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Seedster\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kristoffer Eklund",
-                    "email": "kristoffereklund1@gmail.com"
-                }
-            ],
-            "support": {
-                "issues": "https://github.com/eklundkristoffer/seedster/issues",
-                "source": "https://github.com/eklundkristoffer/seedster/tree/4.0"
-            },
-            "time": "2020-09-14T16:33:44+00:00"
-        },
-        {
             "name": "fideloper/proxy",
             "version": "4.4.1",
             "source": {
@@ -1080,42 +1034,30 @@
             "time": "2019-11-02T09:15:47+00:00"
         },
         {
-            "name": "jeremykenedy/laravel-roles",
-            "version": "v6.0.0",
+            "name": "kkszymanowski/traitor",
+            "version": "0.2.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jeremykenedy/laravel-roles.git",
-                "reference": "b180f18a494ff8527c5dd120aca6a0515971abb5"
+                "url": "https://github.com/KKSzymanowski/Traitor.git",
+                "reference": "9770fc7de72ff585601dc9c42b31715d9fc40a24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeremykenedy/laravel-roles/zipball/b180f18a494ff8527c5dd120aca6a0515971abb5",
-                "reference": "b180f18a494ff8527c5dd120aca6a0515971abb5",
+                "url": "https://api.github.com/repos/KKSzymanowski/Traitor/zipball/9770fc7de72ff585601dc9c42b31715d9fc40a24",
+                "reference": "9770fc7de72ff585601dc9c42b31715d9fc40a24",
                 "shasum": ""
             },
             "require": {
-                "eklundkristoffer/seedster": "^4.0",
-                "laravel/framework": "5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*|6.*|7.*|8.*",
-                "laravel/helpers": "^1.3",
-                "php": "^7.2|^8.0"
+                "nikic/php-parser": "^1.0|^2.0|^3.0|^4.0",
+                "php": ">=5.4"
             },
             "require-dev": {
-                "illuminate/support": "^8.5",
-                "laravel/laravel": "^8.0",
-                "laravel/tinker": "^2.4",
-                "orchestra/testbench": "^6.0"
+                "phpunit/phpunit": "~4.1"
             },
-            "type": "package",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "jeremykenedy\\LaravelRoles\\RolesServiceProvider"
-                    ]
-                }
-            },
+            "type": "library",
             "autoload": {
                 "psr-4": {
-                    "jeremykenedy\\LaravelRoles\\": "src/"
+                    "Traitor\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1124,40 +1066,22 @@
             ],
             "authors": [
                 {
-                    "name": "Roman Bičan",
-                    "email": "romanbican@seznam.cz"
-                },
-                {
-                    "name": "Jeremy Kenedy",
-                    "email": "jeremykenedy@gmail.com"
+                    "name": "Kuba Szymanowski",
+                    "email": "kuba.szymanowski@inf24.pl"
                 }
             ],
-            "description": "A Powerful package for handling roles and permissions in Laravel. Supports Laravel 5.3, 5.4, 5.5, 5.6, 5.7, 5.8, 6.0, and 7.0.",
+            "description": "Add a trait use statement to existing PHP class",
             "keywords": [
-                "acl",
-                "laravel",
-                "laravel-levels",
-                "laravel-permissions",
-                "laravel-roles",
-                "levels",
-                "permissions",
-                "roles"
+                "add",
+                "php",
+                "trait"
             ],
             "support": {
-                "issues": "https://github.com/jeremykenedy/laravel-roles/issues",
-                "source": "https://github.com/jeremykenedy/laravel-roles/tree/v6.0.0"
+                "email": "kuba.szymanowski@inf24.pl",
+                "issues": "https://github.com/kkszymanowski/traitor/issues",
+                "source": "https://github.com/kkszymanowski/traitor"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeremykenedy",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/jeremykenedy",
-                    "type": "patreon"
-                }
-            ],
-            "time": "2021-03-26T02:54:50+00:00"
+            "time": "2018-04-19T12:24:36+00:00"
         },
         {
             "name": "laravel/framework",
@@ -3006,6 +2930,81 @@
                 }
             ],
             "time": "2020-08-18T17:17:46+00:00"
+        },
+        {
+            "name": "santigarcor/laratrust",
+            "version": "6.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/santigarcor/laratrust.git",
+                "reference": "9ab3bfdc06afe18b17f69b77cb77291c36dae9f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/santigarcor/laratrust/zipball/9ab3bfdc06afe18b17f69b77cb77291c36dae9f6",
+                "reference": "9ab3bfdc06afe18b17f69b77cb77291c36dae9f6",
+                "shasum": ""
+            },
+            "require": {
+                "kkszymanowski/traitor": "^0.2.0",
+                "laravel/framework": "~6.0|~7.0|~8.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.3.2",
+                "orchestra/testbench": "4.*|5.*|6.*",
+                "phpunit/phpunit": "^7.5.15|^8.4|^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Laratrust\\LaratrustServiceProvider"
+                    ],
+                    "aliases": {
+                        "Laratrust": "Laratrust\\LaratrustFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laratrust\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Santiago Garcia",
+                    "homepage": "http://santigarcor.me"
+                }
+            ],
+            "description": "This package provides a flexible way to add Role-based Permissions to Laravel",
+            "keywords": [
+                "Teams",
+                "acl",
+                "authorization",
+                "laratrust",
+                "laravel",
+                "multiusers",
+                "permissions",
+                "php",
+                "rbac",
+                "roles"
+            ],
+            "support": {
+                "issues": "https://github.com/santigarcor/laratrust/issues",
+                "source": "https://github.com/santigarcor/laratrust/tree/6.3.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/santigarcor",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-03-03T13:34:32+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

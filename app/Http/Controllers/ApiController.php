@@ -9,6 +9,8 @@ class ApiController extends Controller
 {
      /**
       * @var int
+      *
+      *
       */
      protected $statusCode = Response::HTTP_OK;
 

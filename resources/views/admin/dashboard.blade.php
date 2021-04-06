@@ -33,8 +33,8 @@
                         <div class="pd-25 d-flex align-items-center">
                             <i class="ion ion-monitor tx-40 lh-0 tx-white op-7"></i>
                             <div class="mg-l-20">
-                                <p class="tx-10 tx-spacing-1 tx-mont tx-medium tx-uppercase tx-white-8 mg-b-10">All Articles</p>
-                                <p class="tx-24 tx-white tx-lato tx-bold mg-b-2 lh-1">{{ count($articles) }}</p>
+                                <p class="tx-10 tx-spacing-1 tx-mont tx-medium tx-uppercase tx-white-8 mg-b-10">Active Cars</p>
+                                <p class="tx-24 tx-white tx-lato tx-bold mg-b-2 lh-1">{{ $cars }}</p>
                             </div>
                         </div>
                     </div>
@@ -44,8 +44,8 @@
                         <div class="pd-25 d-flex align-items-center">
                             <i class="ion ion-clock tx-40 lh-0 tx-white op-7"></i>
                             <div class="mg-l-20">
-                                <p class="tx-10 tx-spacing-1 tx-mont tx-medium tx-uppercase tx-white-8 mg-b-10">UnApproved Articles</p>
-                                <p class="tx-24 tx-white tx-lato tx-bold mg-b-2 lh-1">{{ count($articles) }}</p>
+                                <p class="tx-10 tx-spacing-1 tx-mont tx-medium tx-uppercase tx-white-8 mg-b-10">Purchased Tickets</p>
+                                <p class="tx-24 tx-white tx-lato tx-bold mg-b-2 lh-1">{{ $tickets }}</p>
                             </div>
                         </div>
                     </div>
@@ -57,16 +57,16 @@
                     <div class="card bd-0 shadow-base pd-30 mg-t-20">
                         <div class="d-flex align-items-center justify-content-between mg-b-30">
                             <div>
-                                <h6 class="tx-13 tx-uppercase tx-inverse tx-semibold tx-spacing-1">Recent Articles</h6>
-                                <p class="mg-b-0"><i class="icon ion-calendar mg-r-5"></i>All Recent Articles </p>
+                                <h6 class="tx-13 tx-uppercase tx-inverse tx-semibold tx-spacing-1">Recent Users</h6>
+                                <p class="mg-b-0"><i class="icon ion-calendar mg-r-5"></i>All Recent Users </p>
                             </div>
-                            <a href="" class="btn btn-outline-info btn-oblong tx-11 tx-uppercase tx-mont tx-medium tx-spacing-1 pd-x-30 bd-2">See more</a>
+                            <a href="{{ route('admin.users') }}" class="btn btn-outline-info btn-oblong tx-11 tx-uppercase tx-mont tx-medium tx-spacing-1 pd-x-30 bd-2">See more</a>
                         </div><!-- d-flex -->
 
                         <table class="table table-valign-middle mg-b-0">
-                            @if (count($articles) > 0)
+                            @if (count($users) > 0)
                                 <tbody>
-                                @foreach($articles as $item)
+                                @foreach($users as $item)
                                     <tr>
                                         <td class="pd-l-0-force">
 {{--                                            <img src="{{ $item->user->avatar }}" class="wd-40 rounded-circle" alt="">--}}
@@ -75,15 +75,14 @@
                                             <h6 class="tx-inverse tx-14 mg-b-0">{{ $item->email }}</h6>
                                             <span class="tx-12">{{ $item->name }}</span>
                                         </td>
-                                        <td class="text-uppercase">{{ $item->article_title }}</td>
-                                        <td><span id="sparkline1">{{ $item->name_of_author }}</span></td>
+                                        <td class="text-uppercase">{{ $item->phone }}</td>
                                         <td>{{ $item->created_at->format('Y-M-d') }}</td>
-                                        <td class="pd-r-0-force tx-center"><a href="{{ route('admin.article.view',$item->id) }}" class="btn btn-outline-info btn-oblong">View Article</a></td>
+                                        <td class="pd-r-0-force tx-center"><a href="" class="btn btn-outline-info btn-oblong">View Article</a></td>
                                     </tr>
                                 @endforeach
                                 </tbody>
                             @else
-                                <h3 class="text-center mt-4 mb-4">No Applications Yet</h3>
+                                <h3 class="text-center mt-4 mb-4">No Users Yet</h3>
                             @endif
 
                         </table>
@@ -102,7 +101,7 @@
                                 <div class="carousel-item active">
                                     <div class="bg-br-primary pd-30 ht-300 pos-relative d-flex align-items-center rounded">
                                         <div class="tx-white">
-                                            <h5 class="lh-5 mg-b-20">The Journal of Studies in Education (JOSTED)
+                                            <h5 class="lh-5 mg-b-20">RAMADECH
                                                 is an open-access
                                                 multi-disciplinary peer-reviewed
                                                 </h5>
@@ -112,8 +111,9 @@
                                 <div class="carousel-item">
                                     <div class="bg-info pd-30 ht-300 pos-relative d-flex align-items-center rounded">
                                         <div class="tx-white">
-                                            <h5 class="lh-5 mg-b-20">Journal devoted to the publication of original (empirical and theoretical) research papers, critical,
-                                                up-to-date and concise reviews on all themes related to all aspects of Education</h5>
+                                            <h5 class="lh-5 mg-b-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequuntur dolorum iure
+                                                molestias perspiciatis.
+                                            </h5>
                                         </div>
                                     </div><!-- d-flex -->
                                 </div>

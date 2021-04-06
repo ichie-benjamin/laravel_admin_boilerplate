@@ -3,14 +3,17 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class DashboardController extends Controller
 {
     public function dashboard(){
 
-        $articles = [];
-        return view('admin.dashboard',compact('articles'));
+        $cars = 1;
+        $tickets = 1;
+       $users = User::all();
+        return view('admin.dashboard',compact('users','tickets','cars'));
     }
     public function crudGUI(){
         return view('admin.crud');

@@ -37,18 +37,18 @@
             {{--        </li>--}}
 
 
-            <a href="{{ route('laravelroles::roles.index') }}"  class="br-menu-link">
+            <a href="#"  class="br-menu-link">
                 <div class="br-menu-item">
                     <i class="menu-item-icon icon ion-ios-filing-outline tx-24"></i>
                     <span class="menu-item-label">Roles Dashboard</span>
                     <i class="menu-item-arrow fa fa-angle-down"></i>
                 </div><!-- menu-item -->
             </a><!-- br-menu-link -->
-            <ul class="br-menu-sub nav flex-column">
-                <li class="nav-item"><a href="{{ route('laravelroles::roles.index') }}" class="nav-link">Roles & Permissions </a></li>
-                <li class="nav-item"><a href="{{ route('laravelroles::roles.create') }}" class="nav-link">Create Role </a></li>
-                <li class="nav-item"><a href="{{ route('laravelroles::permissions.create') }}" class="nav-link">Create Permission</a></li>
-            </ul>
+{{--            <ul class="br-menu-sub nav flex-column">--}}
+{{--                <li class="nav-item"><a href="{{ route('laravelroles::roles.index') }}" class="nav-link">Roles & Permissions </a></li>--}}
+{{--                <li class="nav-item"><a href="{{ route('laravelroles::roles.create') }}" class="nav-link">Create Role </a></li>--}}
+{{--                <li class="nav-item"><a href="{{ route('laravelroles::permissions.create') }}" class="nav-link">Create Permission</a></li>--}}
+{{--            </ul>--}}
 
             <a href="{{ route('admin.crud.gui') }}" class="br-menu-link">
                 <div class="br-menu-item">

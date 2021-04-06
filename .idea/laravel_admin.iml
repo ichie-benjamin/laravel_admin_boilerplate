@@ -118,13 +118,13 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/namshi/jose" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/lcobucci/jwt" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/intervention/image" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/eklundkristoffer/seedster" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/helpers" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/jeremykenedy/laravel-roles" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/nicoaudy/laravelmanthra" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravelcollective/html" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/akaunting/laravel-setting" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/watson/active" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/kkszymanowski/traitor" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/santigarcor/laratrust" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
