@@ -12,7 +12,7 @@ class DashboardController extends Controller
 
         $cars = 1;
         $tickets = 1;
-       $users = User::all();
+        $users = User::whereRoleIs('user')->get();
         return view('admin.dashboard',compact('users','tickets','cars'));
     }
     public function crudGUI(){
